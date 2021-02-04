@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Wohooo First App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h1 class="display-4">This is a cute cat website</h1>
+      <img src="{% static "images/cat2.jpg" %}"  alt=" OOps Two white cute cat"><br>
+
+        <h5>{{ insert_me }}</h5>
+
+      <h5> To fill fom type /fillforms/ inside broeser </h5>
+    </div>
+
+
+  </body>
+</html>
